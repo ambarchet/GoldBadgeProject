@@ -228,7 +228,7 @@ namespace _03_Badges
                 Console.WriteLine($"{keyValuePair.Key}    / " + "{0}", string.Join(", ", doorList));
             }
         }
-
+        //didn't use
         private void GetDoorListByName(string input)
         {
             List<Door> doorCheck = new List<Door>();
